@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 PHARO_VM=${PHARO_VM:-./pharo}
 
-pillar_version="development"
+pillar_version="stable"
 pharo_version="50"
 vm_enable=0
 img_enable=0
