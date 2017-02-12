@@ -17,6 +17,7 @@
 % =================================================================
 \title{«& title»}
 \author{«& attribution»}
+%\date{\gitdate\titlebreak[\smallskip]{ -- }\protect\gitCommitInfo}
 
 \hypersetup{pdfinfo = {
     Title = {«& title»},
@@ -29,6 +30,8 @@
 
 % Title page and colophon on verso
 \maketitle
+\pagestyle{titlingpage}
+\thispagestyle{titlingpage} % \pagestyle does not work on the first one…
 
 \cleartoverso
 {\small

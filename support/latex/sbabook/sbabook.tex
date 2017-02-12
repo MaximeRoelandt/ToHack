@@ -46,7 +46,7 @@
 \title{the Square Bracket Associates\titlebreak{}
   \texorpdfstring{\protect\LaTeX}{LaTeX} book class}
 \author{Damien Pollet}
-\date{\titlebreak[\smallskip]{ -- }\protect}
+\date{\gitdate\titlebreak[\smallskip]{ -- }\protect\gitCommitInfo}
 
 \hypersetup{pdfinfo = {
     Title = {\thetitle},
@@ -68,6 +68,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Title page and colophon on verso
 \maketitle
+\pagestyle{titlingpage}
+\thispagestyle{titlingpage} % \pagestyle does not work on the first one…
 
 \cleartoverso
 {\small
