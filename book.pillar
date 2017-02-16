@@ -1,14 +1,14 @@
 { "metadata": {
         "title": "Little Hidden Treasures" ,
-        "attribution" : "Stéphane Ducasse"} }
+        "attribution" : "Stéphane Ducasse",
+	"author":  "Stéphane Ducasse"} }
 
 !My First book
 
-!!Compilation
+
 
 ${inputFile:Chapters/Chapter1/chapter1.pillar}$
 
-!!Edition and Templates
 
 ${inputFile:Chapters/Chapter2/chapter2.pillar}$
 
